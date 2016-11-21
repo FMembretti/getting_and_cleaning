@@ -1,16 +1,16 @@
-MY WORK CONTAINS THOSE FILES:
--"run_analysis" (R script)
--"ReadMe" markdown document: it contains information reported on the assignment and also the "readme" file information contained in the zip file
--"Codebook" markdown document
--"averageDataset.txt" tidy data set .txt file: this is the output of my R script
+#MY WORK CONTAINS THOSE FILES
+*"run_analysis" (R script)
+*"ReadMe" markdown document: it contains information reported on the assignment and also the "readme" file information contained in the zip file
+*"Codebook" markdown document
+*"averageDataset.txt" tidy data set .txt file: this is the output of my R script
 
-WHY MY DATASET IS TIDY?
+#WHY MY DATASET IS TIDY?
 
 1. each variable is in one columns (for example: subject id and activity name are in separated, unique columns).
 
 2. each observation is in one row : (for example: observation in row 1 is about subject 1 who is making activity "LAYING", and his/her " frequencyBodyAcc-meanFreq()-Y" is 0.13183575, etc.)
 
-WHAT COLUMNS ARE MEASUREMENTS ON MEAN AND STANDARD DEVIATION?
+#WHAT COLUMNS ARE MEASUREMENTS ON MEAN AND STANDARD DEVIATION?
 
 I decided to use grep() function to search for keyword like mean or std in features and omit those which didn't indicate them
 
